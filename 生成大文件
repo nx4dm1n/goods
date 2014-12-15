@@ -1,0 +1,2 @@
+root@kali:~# dd if=/dev/zero count=$((1024*1024)) bs=4096 > big.csv
+root@kali:~# zip -9 big.zip big.csv
