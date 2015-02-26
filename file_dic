@@ -13,6 +13,7 @@
 /bbs/uc_server/data/.svn/text-base/config.inc.php.svn-base
 /bbs/config/config_ucenter.php.bak
 /bbs/config/.svn/text-base/config_ucenter.php.svn-base
+/cacti/index.php
 /cdn.cfg
 /ckfinder/ckfinder.html
 /cluster/nodes
@@ -51,7 +52,8 @@
 /new/client.php?m=download&a=downloadFile&file=..%2Fclient.php
 /phpinfo.php
 /phpMyAdmin/
-/phpmyadmin
+/
+/php/setup.php
 /php/voguserlist.php
 /pracnew/
 /TPlus/login.htm
@@ -95,7 +97,7 @@
 /.git/config
 /.svn/entries
 /.viminfo
-/../../../../../../../../../../etc/passwd
+/../../../../../../../../../../../../../../../../../../../../../../etc/passwd
 /?s=/abc/abc/abc/${@print(THINK_VERSION)}
 /
 /manager!managerLogOut.ac
