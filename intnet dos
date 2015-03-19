@@ -1,0 +1,12 @@
+Intent intent = new Intent();
+					intent.setComponent(componentName);
+					intent.putExtra("serializable_key", new DataSchema());
+					
+					
+					public class DataSchema implements Serializable{
+	private static final long serialVersionUID = -3601187837704976264L;
+
+	public DataSchema() {
+		super();
+	}
+}
