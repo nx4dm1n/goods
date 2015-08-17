@@ -1,0 +1,38 @@
+2
+ Remount文件系统
+ adb remount
+ 
+3
+ 拷贝配套的SU文件
+ adb push arm\su /system/xbin/su
+
+adb push arm\su /system/xbin/daemonsu
+
+adb push common/install-recovery.sh /system/etc/install-recovery.sh
+ 
+4
+ 修改文件的权限
+ adb shell chown 0.0 /system/xbin/su
+
+adb shell chmod 4777 /system/xbin/su
+
+adb shell chown 0.0 /system/xbin/daemonsu
+
+adb shell chmod 4777 /system/xbin/daemonsu
+
+adb shell chmod 777 /system/etc/install-recovery.sh
+ 
+5
+ 安装SuperSU.apk
+ adb install common/superuser.apk
+ 
+6
+ 重启手机
+ adb reboot
+  
+7
+ 如果重启手机后，SuperSU不能正常工作，请手动执行
+ adb shell setenforce 0
+
+adb shell /system/xbin/daemonsu --daemon
+ 
