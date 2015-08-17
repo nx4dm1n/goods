@@ -1,0 +1,67 @@
+INSERT类型
+http://www.wooyun.org/bugs/wooyun-2010-024861
+
+UPDATE型：
+http://www.wooyun.org/bugs/wooyun-2010-069416
+http://www.wooyun.org/bugs/wooyun-2010-024854
+
+DELETE型：
+http://www.wooyun.org/bugs/wooyun-2013-024112
+
+path info:
+http://www.wooyun.org/bugs/wooyun-2010-019977
+http://www.wooyun.org/bugs/wooyun-2010-019652
+http://www.wooyun.org/bugs/wooyun-2010-010738
+http://www.wooyun.org/bugs/wooyun-2010-07867
+http://www.wooyun.org/bugs/wooyun-2010-05293
+http://www.wooyun.org/bugs/wooyun-2010-04853
+http://www.wooyun.org/bugs/wooyun-2010-01666
+http://www.wooyun.org/bugs/wooyun-2010-0555
+
+混合：
+http://www.wooyun.org/bugs/wooyun-2010-0626
+
+终止型
+http://www.wooyun.org/bugs/wooyun-2010-086779
+http://www.wooyun.org/bugs/wooyun-2010-05525
+
+SQL报错：
+http://www.wooyun.org/bugs/wooyun-2010-070398
+http://www.wooyun.org/bugs/wooyun-2010-0553
+
+X-FORWARDED-FOR：
+http://www.wooyun.org/bugs/wooyun-2010-070396
+
+COOKIE注入：
+http://www.wooyun.org/bugs/wooyun-2010-0111246
+
+IN型：
+http://www.wooyun.org/bugs/wooyun-2010-070194
+
+SORT型：
+http://www.wooyun.org/bugs/wooyun-2014-067936
+
+ORDER BY型：
+http://www.wooyun.org/bugs/wooyun-2010-024853
+http://www.wooyun.org/bugs/wooyun-2010-023435
+http://www.wooyun.org/bugs/wooyun-2010-08135
+
+基于时间的盲注：
+http://www.wooyun.org/bugs/wooyun-2010-068415
+http://www.wooyun.org/bugs/wooyun-2010-0115973
+http://www.wooyun.org/bugs/wooyun-2015-0132047
+
+搜索型：
+http://www.wooyun.org/bugs/wooyun-2010-024859
+http://www.wooyun.org/bugs/wooyun-2010-08140
+
+
+邮箱注册：
+http://www.wooyun.org/bugs/wooyun-2010-07742
+
+登陆界面：
+http://www.wooyun.org/bugs/wooyun-2010-01196
+http://www.wooyun.org/bugs/wooyun-2010-0658    登陆绕过
+http://www.wooyun.org/bugs/wooyun-2010-0656	登陆绕过
+http://www.wooyun.org/bugs/wooyun-2010-0370    登陆绕过
+
