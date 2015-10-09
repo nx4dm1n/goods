@@ -29,3 +29,7 @@ adb shell chmod 777 /system/etc/install-recovery.sh
  重启手机
  adb reboot
  
+
+
+安卓模拟器安装supersu
+http://www.cnblogs.com/cute/p/4095359.html
